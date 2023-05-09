@@ -26,7 +26,7 @@ export default function PromptForm(props) {
           type="text"
           defaultValue={prompt}
           name="prompt"
-          placeholder="Enter a prompt..."
+          placeholder="Введите подсказки..."
           className="block w-full flex-grow rounded-l-md"
         />
 
@@ -34,7 +34,7 @@ export default function PromptForm(props) {
           className="bg-black text-white rounded-r-md text-small inline-block px-3 flex-none"
           type="submit"
         >
-          Generate
+          Сгенерировать
         </button>
       </div>
     </form>
