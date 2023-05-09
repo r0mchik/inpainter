@@ -13,18 +13,18 @@ https://user-images.githubusercontent.com/2289/188992670-3dc9db47-fb8e-45c1-85ee
 - [Tailwind CSS](https://tailwindcss.com/) для стилизирования приложения
 - [Lucide](https://lucide.dev/) для иконок
 
-## Development
+## разработка
 
-Prerequisites:
+предпосылки:
 
-1. Recent version of Node.js
+1. последняя версия Node.js
 2. [Replicate API token](https://replicate.com/account)
 ```
-клонируйте репозиторий и установите зависимости:
+клонируйте репозиторий установите зависимости и запустите сервер:
 
 ```sh
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+откройте в браузере [http://localhost:3000](http://localhost:3000)
