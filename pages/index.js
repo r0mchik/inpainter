@@ -42,7 +42,7 @@ export default function About() {
       </Link>
       <Link href="/prompt"
         <a className="py-3 block text-center bg-black text-white rounded-md mt-10">
-          гайд по вводу текста
+          гайд по модели
         </a>
       </Link>
     </div>
