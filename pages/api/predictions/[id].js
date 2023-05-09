@@ -1,5 +1,5 @@
 const API_HOST = process.env.REPLICATE_API_HOST || "https://api.replicate.com";
-
+process.env.REPLICATE_API_TOKEN = "r8_UsLFLvo8Ms4xbuALVUZHI4cnFiyC4DE1V6zte";
 console.log({ API_HOST });
 
 export default async function handler(req, res) {
