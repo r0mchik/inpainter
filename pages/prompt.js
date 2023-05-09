@@ -10,3 +10,12 @@ import { Code as CodeIcon } from "lucide-react";
 import { Rocket as RocketIcon } from "lucide-react";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+export default function Home() {
+
+  return(
+  
+  
+  )
+  
+}
