@@ -36,7 +36,7 @@ export default function About() {
       </ol> */}
 
       <Link href="/paint">
-        <a className="py-3 block text-center bg-black text-white rounded-md mt-10">
+        <a className="py-3 block text-center bg-black text-white rounded-md mt-10 bg-red">
           Начать
         </a>
       </Link>
