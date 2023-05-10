@@ -34,9 +34,9 @@ export default function About() {
           generate a new inpainted image.
         </li>
       </ol> */}
-
+      <h1>jkasdfjkasgdfksgadkf</h1>
       <Link href="/paint">
-        <a className="py-3 block text-center bg-black text-white rounded-md mt-10 bg-red">
+        <a className="py-3 block text-center bg-black text-white rounded-md mt-10">
           Начать
         </a>
       </Link>
