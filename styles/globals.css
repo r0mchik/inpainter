@@ -25,6 +25,7 @@ input {
   @apply mx-3;
 }
 
+
 .icon {
   @apply inline relative mr-1;
   top: -0.1em;
