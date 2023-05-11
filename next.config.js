@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 const withPWA = require('next-pwa');
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ["replicate.com", "replicate.delivery"],
+  },
+  
+}
 
+module.exports = nextConfig
 module.exports = withPWA({
   reactStrictMode: true,
   swcMinify: true,
