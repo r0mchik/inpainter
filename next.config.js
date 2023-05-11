@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const { Network } = require('lucide-react');
 const withPWA = require("next-pwa");
+import runtimeCaching from 'next-pwa/cache.js';
 const isProduction = process.env.NODE_ENV === 'production';
 const nextConfig = {
   reactStrictMode: true,
@@ -11,7 +12,7 @@ const nextConfig = {
   
 }
 
-module.exports = nextConfig
+
 
 
 const config = withPWA({
@@ -26,4 +27,5 @@ const config = withPWA({
   nextConfig
 );
 
+module.exports = nextConfig
 export default config;
