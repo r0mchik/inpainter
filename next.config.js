@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = withPWA({
+const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
@@ -8,7 +8,7 @@ const nextConfig = withPWA({
   images: {
     domains: ["replicate.com", "replicate.delivery"],
   },
-});
+}
 
 const withPWA = require('next-pwa')({
   dest: "public",
@@ -16,6 +16,11 @@ const withPWA = require('next-pwa')({
   skipWaiting: true,
 });
 
-
-module.exports = nextConfig
+module.exports = withPWA({
+  // next.js config
+  pwa: {
+    dest: "public"
+  },
+})
+module.exports = nextConfig, withPWA 
 
