@@ -1,6 +1,6 @@
 const API_HOST = process.env.REPLICATE_API_HOST || "https://api.replicate.com";
 const addBackgroundToPNG = require("lib/add-background-to-png");
-process.env.REPLICATE_API_TOKEN = "r8_fRM8OpTjBDzRhduRRZDJrsOIes3HlWa04ilJn";
+
 export default async function handler(req, res) {
   // remnove null and undefined values
   req.body = Object.entries(req.body).reduce(
