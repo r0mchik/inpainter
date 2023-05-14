@@ -7,7 +7,7 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "inpainter",
-  "start_url": "/https://inpainter-flame.vercel.app/",
+  "start_url": "",
   "theme_color": "#ffffff",
   "categories": [],
     "icons": [
