@@ -3,7 +3,7 @@
   "description": "pwa",
   "dir": "ltr",
   "display": "standalone",
-  "name": "inpainter-97eznawp2-r0mchik.vercel",
+  "name": "inpainter",
   "orientation": "any",
   "scope": "/",
   "short_name": "inpainter",
